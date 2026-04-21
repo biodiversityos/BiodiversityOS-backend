@@ -1,7 +1,6 @@
 services:
   app:
     build: .
-    image: ghcr.io/saschavinnik/biodiversityos-backend:latest
     ports:
       - "127.0.0.1:3000:3000"
     env_file:
