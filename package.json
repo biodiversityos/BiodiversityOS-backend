@@ -10,12 +10,14 @@
   "dependencies": {
     "@fastify/cors": "^11.0.0",
     "@fastify/multipart": "^9.0.0",
+    "@fastify/rate-limit": "^10.3.0",
     "@fastify/sensible": "^6.0.0",
     "@fastify/swagger": "^9.0.0",
     "@fastify/swagger-ui": "^5.0.0",
     "dotenv": "^16.0.0",
     "fastify": "^5.0.0",
-    "pinata": "^2.5.5"
+    "pinata": "^2.5.5",
+    "viem": "^2.56.3"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
